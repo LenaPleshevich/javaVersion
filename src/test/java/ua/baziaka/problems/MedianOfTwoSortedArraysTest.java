@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import ua.epam.rd.javatester.domain.TestMark;
 
 import java.util.Arrays;
 import java.util.List;
