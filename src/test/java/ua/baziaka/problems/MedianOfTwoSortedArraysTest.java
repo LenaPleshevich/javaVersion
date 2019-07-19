@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MedianOfTwoSortedArraysTest {
 
-    MedianOfTwoSortedArrays4 toTestAlg;
+    MedianOfTwoSortedArrays toTestAlg;
 
     @BeforeEach
     public void setUp() throws Exception {
-        toTestAlg = new MedianOfTwoSortedArrays4();
+        toTestAlg = new MedianOfTwoSortedArrays();
     }
 
     @Test
