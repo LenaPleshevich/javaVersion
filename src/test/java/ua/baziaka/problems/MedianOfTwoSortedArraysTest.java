@@ -1,18 +1,12 @@
 package ua.baziaka.problems;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MedianOfTwoSortedArraysTest {
 
-    MedianOfTwoSortedArrays toTestAlg;
-
-    @BeforeEach
-    public void setUp() throws Exception {
-        toTestAlg = new MedianOfTwoSortedArrays();
-    }
+    private MedianOfTwoSortedArrays toTestAlg = new MedianOfTwoSortedArrays();;
 
     @Test
     public void testMedianOfTwoSortedArrays() {
