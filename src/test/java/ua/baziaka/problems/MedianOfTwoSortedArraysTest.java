@@ -14,6 +14,6 @@ public class MedianOfTwoSortedArraysTest {
         var firstEven = Stream.of(1, 2, 3, 4).filter(i -> i % 3 == 0)
                 .findFirst()
                 .orElseThrow();
-        Assert.assertEquals(firstEven.intValue(), 3);
+        Assert.assertEquals(firstEven.toString().repeat(3), "333");
     }
 }
